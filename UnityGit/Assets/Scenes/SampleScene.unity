@@ -525,7 +525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 814989566931454653, guid: c3933f55244701344bcfbfecfdeac2b6, type: 3}
       propertyPath: m_UseGravity
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 814989566931454653, guid: c3933f55244701344bcfbfecfdeac2b6, type: 3}
       propertyPath: m_IsKinematic
@@ -537,7 +537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6685357444529948587, guid: c3933f55244701344bcfbfecfdeac2b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.62
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 6685357444529948587, guid: c3933f55244701344bcfbfecfdeac2b6, type: 3}
       propertyPath: m_LocalPosition.y
@@ -600,3 +600,16 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8032458356501085154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 90037719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff47e06e8de5f934e995afa70f34fd9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 4128261277834620057, guid: 4d3d57f6a8e996e478dcc9de9ba894fc, type: 3}
