@@ -25,8 +25,8 @@ public class Player_movement : MonoBehaviour
     {
         CharacterController controller = GetComponent<CharacterController>();
         // is the controller on the ground?
-        if (controller.isGrounded)
-        {
+        
+        
             //Feed moveDirection with input.
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
             moveDirection = transform.TransformDirection(moveDirection);
@@ -36,7 +36,7 @@ public class Player_movement : MonoBehaviour
             if (Input.GetButton("Jump"))
                 moveDirection.y = jumpSpeed;
 
-        }
+        
         turner = Input.GetAxis("Mouse X") * sensitivity;
         looker = -Input.GetAxis("Mouse Y") * sensitivity;
         if (turner != 0)
